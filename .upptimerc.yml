@@ -1,24 +1,28 @@
+
 # Change these first
 owner: terrerov91 # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Vesta-Web
+  - name: Google
+    url: https://www.google.com
+  - name: Fredrikson
     url: http://vestaweb.insmet.cu/VestaWeb/
+  - name: INSMET
+    url: http://www.insmet.cu
   - name: Meteoradares
     url: http://www.meteoradares.cu
-  - name: correo-meteoradares
-    url: https://correo.meteoradares.cu
-  - name: insmet
-    url: www.insmet.cu
+
+assignees:
+  - terrerov91
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
+  #cname: pablokbs.github.io
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  name: Terrerov Status
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
